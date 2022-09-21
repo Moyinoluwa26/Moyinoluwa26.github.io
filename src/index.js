@@ -2,12 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Nav  from './Nav';
+import Home from './Home';
 import reportWebVitals from './reportWebVitals';
+import About from './About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Nav />
+    <Home/>
+    <App/>
+    <About/>
   </React.StrictMode>
 );
 
